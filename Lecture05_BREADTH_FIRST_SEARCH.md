@@ -64,7 +64,7 @@ out put
 
 ### Sử dụng BFS
 <b>Tutorial</b><br/>
-Bài này áp dụng BFS cơ bản, đọc vào số lượng đỉnh của đồ thị và danh sách cạnh. Sau đó chạy BFS bắt đầu từ điểm SS. Viết một hàm đếm các cạnh đi qua từ S đến các đỉnh khác. Lấy kết quả đếm nhân 6 để ra kết quả cần tìm.
+Bài này áp dụng BFS cơ bản, đọc vào số lượng đỉnh của đồ thị và danh sách cạnh. Sau đó chạy BFS bắt đầu từ điểm S. Viết một hàm đếm các cạnh đi qua từ S đến các đỉnh khác. Lấy kết quả đếm nhân 6 để ra kết quả cần tìm.
 
 Tuy nhiên ta có thể biến tấu thuật toán BFS đôi chút để có được kết quả ngay lúc duyệt đồ thị.
 
