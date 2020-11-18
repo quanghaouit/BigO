@@ -34,7 +34,7 @@ The first line contains an integer, Q denoting the number of queries. The subseq
 
 The first line contains two space-separated integers describing the respective values of N (the number of nodes) and M (the number of edges) in the graph.
 Each line i of the M subsequent lines contains two space-separated integers, u and v describing an edge connecting node u to node v.<br/>
-The last line contains a single integer, SS, denoting the index of the starting node.<br/>
+The last line contains a single integer S denoting the index of the starting node.<br/>
 Constraints<br/>
 1 ≤ Q ≤ 10 <br/>
 2 ≤ N ≤ 1000 <br/>
@@ -81,6 +81,7 @@ public class Main {
     static final int MAX = 1000 + 5;
     static int V, E;
     static boolean[] visited = new boolean[MAX];
+    static ArrayList<Integer> path = new ArrayList<Integer>();
     static int[] dist = new int[MAX];
     static ArrayList<Integer> graph[] = new ArrayList[MAX];
  
@@ -96,6 +97,7 @@ public class Main {
                 if (!visited[v]) {
                     visited[v] = true;
                     dist[v] = dist[u] + 1;
+                    path.set(v, u);
                     q.add(v);
                 }
             }
@@ -117,6 +119,7 @@ public class Main {
             for (int i = 0; i < MAX; i++) {
                 graph[i].clear();
                 visited[i] = false;
+                path.add(-1);
                 dist[i] = 0;
             }
  
