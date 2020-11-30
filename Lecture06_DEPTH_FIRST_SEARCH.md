@@ -42,7 +42,7 @@ Contraints: <br/>
 1 ≤ Q ≤ (N−1) <br/>
 
 <b>Dữ liệu xuất</b> <br/>
-Print the idid of the country of the girl who will be accepted.
+Print the id of the country of the girl who will be accepted.
 
 <b>Ví dụ:</b>
 <br/>input
