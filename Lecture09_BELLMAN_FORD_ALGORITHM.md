@@ -85,6 +85,8 @@ Lưu ý: Trọng số một cạnh được tính bằng (trọng số điểm �
 
 ​​ . Do đó tùy thuộc vào thứ tự đề cho điểm nguồn và điểm đích mà trọng số của một cạnh có thể dương hoặc âm. Do đó tuy đề có đề cập chỉ có tối đa một đường đi nối trực tiếp giữa 2 điểm, đường đi đó có thể có tới 2 trọng số (một cách trực quan bạn có thể tưởng tượng mỗi trọng số đại diện cho một chiều của tuyến đường).
 
+### Độ phức tạp: O (T * V * E)
+với V là số đỉnh (số điểm giao thông), E là số đường đi, T là số bộ test.
 
 ```
 import java.util.*;
